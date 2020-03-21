@@ -14,3 +14,10 @@ function johnLennonFacts(facts){
   }
   return excitedFacts
 }
+function iLoveTheBeatles(num){
+  let beatlesChant = []
+  do {beatlesChant.push('I love the Beatles!')
+  num++
+} while (num<15)
+return beatlesChant
+}
